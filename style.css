@@ -1,3 +1,7 @@
+#lineOfSquares{
+    width: 0;
+    height: 0;
+}
 .lineOfSquares{
     display: flex;
     justify-content: center;
