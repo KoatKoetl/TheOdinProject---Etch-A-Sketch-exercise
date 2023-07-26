@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch-A-Sketch</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- <button class="sizeOfGrid" onclick="chooseSize()">Choose size</button>
     <div id="fullSquare">
         <div class="lineOfSquares" id="lineOfSquares"></div>
     </div>
     <button onclick="reloadGame()">Restart</button> -->
+    <!-- Add a name of game on center -->
+    <h1>Etch-A-Sketch</h1>
     <!-- Add div to store the board -->
-</body>
+    <div id="game-board"></div>
+    <!-- Add some buttons to play -->
+    <div class="buttons">
+      <button class="restart-game">Clear</button>
+      <button class="choose-size">Choose size</button>
+    </div>
+  </body>
 </html>

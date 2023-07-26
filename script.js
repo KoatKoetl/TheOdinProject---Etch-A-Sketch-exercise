@@ -45,7 +45,7 @@
 //       }
 //     } else {
 //       return alert("Number is too big"),location.reload();;
-      
+
 //     }
 //   } else {
 //     alert("Change the number please");
@@ -57,3 +57,4 @@
 //     location.reload();
 // };
 
+//

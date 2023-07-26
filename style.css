@@ -23,4 +23,25 @@
     width: 20px;
     height: 20px;
 } */
-
+/* Center the title of game */
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  padding-top: 0.5em;
+}
+/* Make a grid on div game-board and make the size of game board */
+.game-board {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  border: 10px black solid;
+}
+/* Change the style and position of buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
