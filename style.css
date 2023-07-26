@@ -1,20 +1,26 @@
-#lineOfSquares{
-    width: 0;
-    height: 0;
+/* body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5em;
 }
-.lineOfSquares{
-    display: flex;
-    justify-content: center;
+#lineOfSquares {
+  width: 0;
+  height: 0;
 }
-.lineOfSquares div{
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    border: 1px solid white;
+.lineOfSquares {
+  display: flex;
+  justify-content: center;
 }
-.fullSquare div{
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    border: 1px solid white;
+.lineOfSquares .oneSquare{
+  background-color: black;
+  border: 1px solid white;
 }
+#fullSquare {
+  border: 3px rgb(77, 77, 77) solid;
+}
+.oneSquare{
+    width: 20px;
+    height: 20px;
+} */
+
