@@ -47,7 +47,7 @@ h1 {
   margin: 0 2em;
   width: 750px;
   height: 750px;
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 238);
   border: 45px coral solid;
   border-radius: 20px;
 }
