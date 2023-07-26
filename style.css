@@ -28,20 +28,54 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: url("IMG/modern-artist-concept-with-notebook-brush.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   text-align: center;
-  padding-top: 0.5em;
+  padding: 0.5em 0;
 }
 /* Make a grid on div game-board and make the size of game board */
-.game-board {
-  width: 400px;
-  height: 400px;
+.gameBoardAlign {
+  display: flex;
+  justify-content: center;
+}
+#gameBoard {
   display: grid;
-  border: 10px black solid;
+  margin: 0 2em;
+  width: 750px;
+  height: 750px;
+  background-color: whitesmoke;
+  border: 45px coral solid;
+  border-radius: 20px;
 }
 /* Change the style and position of buttons */
 .buttons {
   display: flex;
   justify-content: center;
   gap: 1em;
+  padding: 1em 0;
+}
+/* Square colors and gaps */
+.square {
+  background-color: rgb(255, 255, 238);
+}
+.buttons button {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  padding: 10px 10px;
+  border: 5px solid rgb(236, 157, 128);
+  background-color: coral;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+button:hover {
+  border: 5px solid rgb(139, 73, 49);
+}
+button:active {
+  border: 5px solid rgb(236, 157, 128);
+  background-color: rgb(139, 73, 49);
 }
